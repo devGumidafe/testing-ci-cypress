@@ -38,6 +38,6 @@ describe('Hotel edit specs', () => {
 
     // Assert
     cy.wait('@loadHotels');
-    cy.findByText('Updated hotel two');
+    cy.findByText('Updated hotel three');
   });
 });
